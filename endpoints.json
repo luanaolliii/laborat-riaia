@@ -1,0 +1,15 @@
+{
+  "endpoints": [
+    {
+      "name": "predict",
+      "method": "POST",
+      "url": "/predict",
+      "description": "Endpoint para fazer previsões de preços de casas",
+      "parameters": {
+        "tamanho": "float",
+        "ano_construcao": "int",
+        "numero_quartos": "int"
+      }
+    }
+  ]
+}
